@@ -1,1 +1,5 @@
-# Define the variable board below.
+row = [" ", " ", " "]
+row_2 = [" ", " ", " "]
+row_3 = [" ", " ", " "]
+
+board = [" ", " ", " "," ", " ", " ", " ", " ", " "]
