@@ -1,1 +1,3 @@
-# Define the variable board below.
+# Definearray the variable board below.
+
+board = [ " ", " ", " ", " ", " ", " ", " ", " ", " "]
