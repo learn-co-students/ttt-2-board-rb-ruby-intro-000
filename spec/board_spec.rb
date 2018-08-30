@@ -1,15 +1,13 @@
-RSpec.configure do |config|
-  config.order = :default
+def display_board(board)
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts "-----------"
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts "-----------"
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-# Ignore this.
-def get_variable_from_file(file, variable)
-  file_scope = binding
-  file_scope.eval(File.read(file))
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-  begin
-    return file_scope.local_variable_get(variable)
-  rescue NameError
-    raise NameError, "local variable `#{variable}' not defined in #{file}."
-  end
-end
+display_board(board)
+display_board(board)
+display_board(board)
