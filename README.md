@@ -64,7 +64,7 @@ We need an array that has 9 elements. Each element in the array represents a pos
 As a simplified example, imagine only a single row of tic tac toe. You would represent that with the following array:
 
 ```ruby
-row = [" ", " ", " "]
+row = ["0 ", " 1", " 2"]
 
 # Position 1: Left
 row[0]
@@ -77,7 +77,7 @@ row[2]
 
 # Move X to the Position 2, Middle
 row[1] = "X"
-row #=> [" ", "X", " "]
+row #=> [" 0 ", " X ", " 0 "]
 ```
 
 *Note: You should create a simple array with one element for each position on the board. There are some more complex ways you could solve this with an array for each row of the board saved within the array for the board (a nested or multi-dimensional array). Don't do that - it'll just make your code harder to work with for now.
