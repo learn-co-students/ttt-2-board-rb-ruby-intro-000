@@ -1,4 +1,4 @@
-describe "lib/board.rb" do
+ldescribe "lib/board.rb" do
   it 'defines a local variable `board`' do
     board = get_variable_from_file("./lib/board.rb", "board")
     
@@ -20,6 +20,6 @@ describe "lib/board.rb" do
   it '`board` is an array with 9 strings with an empty space value, " "' do
     board = get_variable_from_file("./lib/board.rb", "board")  
 
-    expect(board).to match_array([" "," "," "," "," "," "," "," "," "])
+    expect(board).to match_array(["0","1","2","3","4","5","6","7","8"])
   end  
 end
