@@ -1,10 +1,28 @@
-row = [" ", " ", " "]
+board = Array.new(9, " ")
 
 # Position 1: Left
-row[0]
+board[0]
 
 # Position 2: Middle
-row[1]
+board[1]
 
 # Position 3: Right
-row[2]
+board[2]
+
+# Positon 4: Left
+board[3]
+
+# Positon 5: Middle
+board[4]
+
+# Positon 6: Right
+board[5]
+
+# Positon 7: Left
+board[6]
+
+# Positon 8: Middle
+board[7]
+
+# Positon 9: Right
+board[8]
