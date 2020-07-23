@@ -1,4 +1,4 @@
-# Tic Tac Toe Board
+board # Tic Tac Toe Board
 
 ## Overview
 
