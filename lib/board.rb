@@ -1,1 +1,2 @@
-# Define the variable board below.
+
+puts board = [" ", " ", " ", " ", " ", " ", " ", " ", " "] # Define the variable board below.
